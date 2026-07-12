@@ -1,20 +1,9 @@
 <!--
 **rsd-06/rsd-06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
 <h1 align="center">Hi there, I'm Sudharshan 👋</h1>
 
-<h3 align="center">Building full-stack products, exploring ML/AI, and grinding DSA on the road to a Software Engineering career</h3>
+<h3 align="center">Building full-stack products, shipping real ML pipelines, and grinding DSA on the road to a Software Engineering career</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sudharshan-r-b0a8b0254/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -33,19 +22,22 @@ Here are some ideas to get you started:
 
 ```yaml
 name: Sudharshan R
-role: Full-Stack Developer | ML/AI Explorer | DSA Enthusiast
+role: Full-Stack Developer | ML/AI Builder | DSA Enthusiast
 education: Electronics & Instrumentation Engineering, KCT Coimbatore (Class of 2028)
 location: Coimbatore, Tamil Nadu, India
-currently_building: SkillSync — a skill-based collaboration platform
-currently_learning: System Design, Advanced DSA, ML fundamentals
-highlight: 🏆 Meta x Scaler PyTorch OpenEnv Hackathon Finalist (top candidates from 31,000+ registrants)
+currently_building: PeriodyX — an end-to-end exoplanet detection pipeline for ISRO BAH 2026
+also_building: SkillSync — a skill-based collaboration platform
+currently_learning: System Design, Advanced DSA, applied ML (data leakage, Bayesian optimization, uncertainty quantification)
+highlight: 🪐 Built a full detection-to-classification exoplanet pipeline validated on ~7,500 real Kepler stars
+also: 🏆 Meta x Scaler PyTorch OpenEnv Hackathon Finalist (top candidates from 31,000+ registrants)
 fun_fact: I once built a 6-DOF robot arm and an IoT water-level monitor before falling in love with software
 ```
 
-- 🔭 Currently working on **SkillSync**, a full-stack skill-matching platform pitched to my college incubator
-- 🌱 Currently learning **System Design**, **OS/DBMS/Networks fundamentals**, and **ML/AI**
+- 🔭 Currently building **[PeriodyX](https://github.com/rsd-06/periodyx-exoplanet-pipeline)** — a full-stack exoplanet detection pipeline for ISRO's Bharatiya Antariksh Hackathon 2026
+- 🛠️ Also maintaining **SkillSync**, a full-stack skill-matching platform pitched to my college incubator
+- 🌱 Currently learning **System Design**, **OS/DBMS/Networks fundamentals**, and the messier parts of applied ML — data leakage, uncertainty quantification, hyperparameter search
 - 🎯 Aiming for a **Software Engineering Internship (Summer 2027)** at top tech companies
-- 💬 Ask me about **Next.js, full-stack architecture, or competitive programming**
+- 💬 Ask me about **Next.js, full-stack architecture, exoplanet detection, or competitive programming**
 - ⚡ Beyond code: basketball, guitar, calisthenics, debating, MUN, and astrophysics
 
 ---
@@ -88,10 +80,14 @@ fun_fact: I once built a 6-DOF robot arm and an IoT water-level monitor before f
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**ML/AI**
+**ML / Data Science**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-006ACC?style=flat-square&logo=xgboost&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Optuna](https://img.shields.io/badge/Optuna-2A2A2A?style=flat-square&logo=optuna&logoColor=white)
 
 **Tools**
 
@@ -104,7 +100,29 @@ fun_fact: I once built a 6-DOF robot arm and an IoT water-level monitor before f
 
 ---
 
-### 🌟 Featured Projects
+### 🌟 Featured Project
+
+<table>
+<tr>
+<td width="100%">
+
+#### 🪐 [PeriodyX — Exoplanet Detection Pipeline](https://github.com/rsd-06/periodyx-exoplanet-pipeline)
+
+An end-to-end machine learning pipeline built for **ISRO's Bharatiya Antariksh Hackathon 2026**, detecting exoplanet transits in noisy astronomical light curves — from raw signal to a confidence-scored classification, with no dependency on any proprietary detection pipeline.
+
+Rather than a single black-box classifier, PeriodyX owns the full chain: detrending, periodic signal search, physical transit-shape fitting, stellar-physics sanity checks (Kepler's Third Law), a two-stage classifier, and bootstrap-ensemble uncertainty on every prediction. Deployed as a full-stack FastAPI + web app on Hugging Face Spaces.
+
+Validated end-to-end on **~7,500 real stars from NASA's Kepler mission**, with three separate rounds of data leakage identified and fixed along the way — including a subtle leak where a "physical" feature turned out to be a proxy for NASA's own vetting confidence.
+
+`Python` `XGBoost` `Optuna` `FastAPI` `lightkurve` `astropy` `scikit-learn`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📁 Other Projects
 
 <table>
 <tr>
@@ -177,6 +195,7 @@ My personal portfolio site with a minimalist off-white aesthetic, custom font sy
 
 ### 🏆 Achievements
 
+- 🪐 **Built PeriodyX**, an end-to-end exoplanet detection pipeline for ISRO BAH 2026 — validated on ~7,500 real Kepler stars, F1-macro 0.66, with a fully documented data-leakage debugging trail
 - 🥇 **Meta × Scaler PyTorch OpenEnv Hackathon Finalist** — selected from 31,000+ registrants
 - 💻 Active competitive programmer — solving DSA daily on the path to FAANG-level interviews
 - 🎤 MUN delegate and debater — UNGA-DISEC committee experience
@@ -186,7 +205,7 @@ My personal portfolio site with a minimalist off-white aesthetic, custom font sy
 ### 📫 Let's Connect
 
 <p align="center">
-  I'm always open to collaborating on interesting full-stack or ML projects, or chatting about tech, basketball, or philosophy.
+  I'm always open to collaborating on interesting full-stack, ML, or astro-data projects, or chatting about tech, basketball, or philosophy.
   <br/><br/>
   <a href="https://www.linkedin.com/in/sudharshan-r-b0a8b0254/">LinkedIn</a> ·
   <a href="mailto:rsudharshan2006@gmail.com">Email</a> ·
