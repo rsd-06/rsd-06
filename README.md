@@ -209,12 +209,29 @@ An end-to-end machine learning pipeline built for **ISRO's Bharatiya Antariksh H
 
 ---
 
+---
+
 <h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="30" height="30" /> GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rsd-06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rsd-06&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
+  <img src="https://github-stats-extended-rsd-exe.vercel.app/api?username=rsd-06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+  <img src="https://github-stats-extended-rsd-exe.vercel.app/api/top-langs/?username=rsd-06&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
 </p>
+
+<!-- The beautiful commit snake animation! -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rsd-06/rsd-06/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rsd-06/rsd-06/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rsd-06/rsd-06/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rsd-06&theme=tokyonight&hide_border=true&background=00000000" width="100%" />
+</p>
+
+---
 
 <!-- The beautiful commit snake animation! -->
 <p align="center">
