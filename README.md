@@ -31,7 +31,7 @@
 <table align="center" width="100%">
   <tr>
     <td width="60%">
-      <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Rocket.png" alt="Rocket" width="25" height="25" /> About Me</h2>
+      <h2> About Me</h2>
       <p>
         🔭 <b>Recently built:</b> <a href="https://github.com/rsd-06/periodyx-exoplanet-pipeline">PeriodyX</a> — an end-to-end exoplanet detection pipeline for ISRO's BAH 2026.<br><br>
         🛠️ <b>Also maintaining:</b> SkillSync — a skill-based collaboration platform.<br><br>
