@@ -212,8 +212,8 @@ An end-to-end machine learning pipeline built for **ISRO's Bharatiya Antariksh H
 <h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Chart" width="30" height="30" /> GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rsd-06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=00000000" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rsd-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rsd-06&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rsd-06&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
 </p>
 
 <!-- The beautiful commit snake animation! -->
