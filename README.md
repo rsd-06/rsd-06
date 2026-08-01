@@ -51,7 +51,7 @@
 
 ---
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Star.png" alt="Star" width="30" height="30" /> Featured Project</h2>
+<h2 align="center"> Featured Project</h2>
 
 <div align="center">
   
@@ -70,7 +70,7 @@ An end-to-end machine learning pipeline built for **ISRO's Bharatiya Antariksh H
 
 ---
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" alt="Wrench" width="30" height="30" /> Tech Stack</h2>
+<h2 align="center"> Tech Stack</h2>
 
 <br>
 
